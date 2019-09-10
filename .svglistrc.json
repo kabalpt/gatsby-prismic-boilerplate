@@ -1,0 +1,5 @@
+{
+  "dest": "src/theme/components/Icon/icons",
+  "format": "js",
+  "src": "icons"
+}
