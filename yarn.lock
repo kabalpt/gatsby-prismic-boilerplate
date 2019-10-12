@@ -5498,10 +5498,10 @@ gatsby-source-filesystem@^2.1.21:
     valid-url "^1.0.9"
     xstate "^4.6.7"
 
-gatsby-source-prismic-with-magic@^1.0.6:
-  version "1.0.6"
-  resolved "https://registry.yarnpkg.com/gatsby-source-prismic-with-magic/-/gatsby-source-prismic-with-magic-1.0.6.tgz#1f445f6a51ec7996da4a62eb94daa91a77cb047c"
-  integrity sha512-wmEx4D9i+0dGtuhUlRv2w/lEBMSaYiMVTpbm9EnWaGUPELBiZqg945mY9E4Q8lqQL8Rj+T+/dIU1svRScBN7gw==
+gatsby-source-prismic-with-magic@^1.0.9:
+  version "1.0.9"
+  resolved "https://registry.yarnpkg.com/gatsby-source-prismic-with-magic/-/gatsby-source-prismic-with-magic-1.0.9.tgz#dd1da4b84c0d03c560009d59eae47006462c79c5"
+  integrity sha512-N/NJTIxx9QvoV3QCkoP628MoJxVnAyRaY7sKYasc1xES7LWROSjCL+TKyW8dPOSd6L9UOjVzw0jl8X76ocXTQQ==
   dependencies:
     chalk "^2.4.2"
     lodash "^4.17.15"
@@ -9680,10 +9680,10 @@ prismic-javascript@^2.1.1:
     cross-fetch "^2.2.3"
     promise-polyfill "8.0.0"
 
-prismic-react-tools@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/prismic-react-tools/-/prismic-react-tools-1.0.0.tgz#be48bd27bb69ba094be49c47914d087f3c45d621"
-  integrity sha512-8YK5yiWahziePr6vyJkjROPP65ZgJ6SfxSpJtiKkPqoH/dBcMFDBvBMqBr7YfG2reqnaUj00QuJQpEQvIiAgSg==
+prismic-react-tools@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/prismic-react-tools/-/prismic-react-tools-1.0.1.tgz#43b11f1d0e519ab34be7be27b7ea4f94ecdc545a"
+  integrity sha512-y9YldkI+wQhnS707DSAzbm1UK2UFqYedrPRf6IOaTTNrZzwgBMSPW3ad8XDs09PAFGJHFjI9e3KYgZjQy2qMyw==
   dependencies:
     html-react-parser "^0.9.1"
     lodash "^4.17.15"
