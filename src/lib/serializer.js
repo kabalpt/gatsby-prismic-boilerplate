@@ -1,4 +1,4 @@
-import { bracked } from './bracked';
+import { bracked } from 'prismic-react-tools';
 import React from 'react';
 import parse from 'html-react-parser';
 
