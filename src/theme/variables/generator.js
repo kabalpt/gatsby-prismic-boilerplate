@@ -1,5 +1,6 @@
 /* eslint-disable prettier/prettier */
 /* eslint-disable sort-keys */
+import { flex } from '../helpers';
 import { margin, padding, size } from 'polished';
 
 /**
@@ -18,7 +19,8 @@ export const generator = {
     { prefix: 'lineHeight', list: 'fonts.sizes', cssProp: 'line-height' },
     { list: 'colors', cssProp: 'color' },
     { list: { left: 'left', right: 'right', center: 'center' }, cssProp: 'text-align' },
-    { list: { flex: 'flex', inlineFlex: 'inlineFlex', block: 'block', inlineBlock: 'inline-block' }, cssProp: 'display' },
+    { list: { flex: 'flex', inlineFlex: 'inline-flex', block: 'block', inlineBlock: 'inline-block' }, cssProp: 'display' },
+    { list: { flex: 'flex', inlineFlex: 'inline-flex', block: 'block', inlineBlock: 'inline-block' }, cssProp: 'display' },
   ],
 
   spaceProps: [
@@ -27,13 +29,10 @@ export const generator = {
   ],
 
   variableProps: [
-    { name: 'colr', list: 'colors', cssProp: 'color' },
-    { name: 'fw', list: 'fonts.weights', cssProp: 'font-weight' },
     { name: 'display', cssProp: 'display' },
-    { name: 'maxWidth', cssProp: 'max-width', units: 'rem' },
-    { name: 'lineHeight', list: 'font-sizes', cssProp: 'line-height' },
     { name: 'textAlign', list: { left: 'left', right: 'right', center: 'center' }, cssProp: 'text-align' },
     // helper fns
+    { name: 'flex', helperFn: flex },
     { name: 'margin', helperFn: margin, units: 'rem' },
     { name: 'padding', helperFn: padding, units: 'rem' },
     { name: 'size', helperFn: size, units: 'rem' },

@@ -1,9 +1,11 @@
 import { colors, fonts } from '../../variables';
 import { createGlobalStyle } from 'styled-components';
+import { importFonts } from 'styled-gen';
 import reset from 'styled-reset';
 
 export const GlobalStyle = createGlobalStyle`
     ${reset};
+    ${importFonts};
 
     html,
     body {

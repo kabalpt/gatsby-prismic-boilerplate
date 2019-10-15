@@ -29,7 +29,7 @@ const sizes = {
   h6: 0.875
 };
 
-const config = [{ family: 'Avenir', path: 'static/fonts/avenir', prefix: 'avenir-', weights }];
+const config = [{ family: 'Avenir', path: 'fonts/avenir', prefix: 'avenir-', weights }];
 
 const size = sz => (sizes[sz] ? `${sizes[sz]}rem` : null);
 

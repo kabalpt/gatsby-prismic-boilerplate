@@ -1,18 +1,9 @@
-import { Col, Grid, Row } from 'react-styled-flexboxgrid';
-import { Icon } from '../../theme/components';
+import { Col, Div, Grid, Icon, Row } from '../../theme/components';
+import { Heading, Text } from '../../theme/components/Typography';
 import { Layout } from '../../components';
 import { PlainText } from 'prismic-react-tools';
 import PropTypes from 'prop-types';
 import React from 'react';
-import styled from 'styled-components';
-
-const Heading = styled.h1`
-  font-size: 5rem;
-  font-weight: ${({ theme }) => theme.fonts.weights.bold};
-  color: ${({ theme }) => theme.colors.primary};
-  margin-top: 10rem;
-  text-align: center;
-`;
 
 const Homepage = props => {
   const {
@@ -28,10 +19,13 @@ const Homepage = props => {
       <Grid>
         <Row>
           <Col xs={12}>
-            <Heading>
+            <Heading h2 mb={10}>
               <PlainText content={heading} />
               <Icon icon="like" ml={1} size={3} />
             </Heading>
+            <Div bgPrimary flex={{ md: 'null center', xs: 'flex-start flex-end' }} size="5 10" white>
+              <Text large>Content</Text>
+            </Div>
           </Col>
         </Row>
       </Grid>
